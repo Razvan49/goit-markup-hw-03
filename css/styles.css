@@ -83,11 +83,11 @@ ul {
 }
 
 .child {
-  padding: 0 50px 0 0;
+  margin: 0 50px 0 0;
 }
 
 .child-one {
-  padding-left: 93px;
+  margin-left: 93px;
 }
 .child-three {
   padding-right: 0px;
@@ -96,6 +96,7 @@ ul {
 .child-four {
   padding: 0;
   margin-left: auto;
+  margin-right: 0;
 }
 
 .main-navigation .active {
@@ -122,6 +123,7 @@ ul {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-right: 40px;
 }
 .global-header a.mail:hover,
 .global-header a.mail:focus {
@@ -252,11 +254,12 @@ ul li p {
 .footer-flex {
   display: flex;
   flex-direction: column;
+  height: 251px;
+  justify-content: space-around;
 }
 
 .global-footer {
   background: #2f303a;
-  /* height: 251px; */
 }
 
 .global-footer a {
@@ -275,8 +278,6 @@ address a:focus {
 }
 
 .global-footer .logo {
-  padding-top: 65px;
-  padding-bottom: 28px;
   color: #2196f3;
   font-family: Raleway, sans-serif;
   font-size: 27px;
@@ -294,13 +295,17 @@ address a:focus {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-
-.global-footer p {
-  margin-top: 0;
+.main-addres {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 28px;
 }
-
-.global-footer .phone-number {
-  padding-bottom: 60px;
+.corection-link {
+  margin-top: 12px;
+}
+.corection {
+  margin: 0;
 }
 
 /* PORTFOLIO PAGE */
